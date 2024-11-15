@@ -1,33 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
 body {
     font-size: 12pt;
-}
-
-p {
-    color: red;
-}
-
-h1 {
-    font-family: 'Agbalumo';
-    font-size: 36pt;
+    font-family: arial;
 }
 main, header, footer, nav ul {
-    max-width: 40rem;
+    max-width: 85rem;
     margin: 0 auto 0 auto;
 }
-main {
-    background-color: bisque;
+.allergi {
+    font-weight: bold;
+   
 }
 
-/* nav ul li {
-    display: inline-block;
-    background-color: grey;
-    padding: 1em;
-    margin: 1em;
-} */
+#meny {
+    background-color: black; 
+    color: white; 
+    padding: 20px; 
+    margin: 20px;
+    border: 3px dashed white;
+}
+#meny p {
+    color: white;
+}
+#meny img {
+    margin: 30px; 
+}
+
+#Omdinbeställning {
+    border: 3px dashed black; 
+    padding: 10px; 
+    margin: 20px; 
+}
 
 header {
-    background-image: url("../img/polacks.jpg");
+    
     background-size: cover;
     overflow: hidden;
     width: 100%;
@@ -41,24 +47,39 @@ header h1 {
     text-align: center;
 }
 
-nav ul {
+button:hover {
+    background-color:chartreuse;
+    cursor: pointer;
+ }
+ section {
+    margin: 10px; 
+}
+button {
+    margin-top: 5px;
+    margin: 20px;
+}
+.header-content {
+    position: relative;
+    max-width: 82rem;
+    height: 200px; 
+    overflow: hidden;
+}
+.header-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+.header-content h1 {
+    position: absolute;
+    top: 50px; 
+    left: 350px; 
+    color:black;
+    font-size: 3rem;
+    padding: 10px;
+}
+#burgare-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 9.25em);
-    gap: 1em;
-    padding: 0;
-}
-
-nav li {
-    display: block;
-    background-color: grey;
-    padding: 1em;
-}
-
-.Very-good {
-    color: green;
-}
-
-.Master {
-    color: green;
-    font-weight: bold;
+    grid-template-columns: repeat(3, 1fr); /* tre kolumner, samma bredd */
+    gap: 20px; /* Mellanrum mellan burgarna */
+    padding: 20px; /* Padding runt gridden */
 }
