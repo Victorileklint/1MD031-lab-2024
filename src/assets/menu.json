@@ -1,21 +1,21 @@
 [{
-    "name": "Veggie Bliss", 
+    "name": "Burgare 1", 
+    "kCal": 750, 
+    "url": "https://res.cloudinary.com/coopsverige/image/upload/f_auto,fl_progressive,q_90,g_center,h_800,w_800/v1599035797/406451.jpg",
+    "lactose": true, 
+    "gluten": true
+},
+{
+    "name": "Burgare 2", 
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "url": "https://images.ctfassets.net/e8gvzq1fwq00/7anaU25AoXn2XhzNdTxqhB/9d65569b8c381b8da51700f7d20c6d47/Recept_-_Kycklingburgare_-_Desktop.jpg?w=820&h=820&fl=progressive&q=90&fm=jpg",
     "lactose": false, 
     "gluten": false
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Burgare 3", 
+    "kCal": 600, 
+    "url": "https://i0.wp.com/baketotheroots.de/wp-content/uploads/2022/08/SQ_220731_Halloumi-Veggie-Burgers.jpg?fit=1200%2C1200&ssl=1",
+    "lactose": true, 
+    "gluten": true
 }]

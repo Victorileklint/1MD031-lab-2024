@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Victors burgare</title>
+       <meta charset="utf-8"/>
+       <link rel="stylesheet" type="text/css" href="public/css/style.css">
+   </head>
+   <body>
+            <header class="header-content">
+                <img src="https://qul.imgix.net/ca169046-430e-4b8d-b218-3f0f73c446be/625936_sld.jpg" alt="Bildbeskrivning" class="header-image">
+                <h1>Välkomna till Victors Burgare!</h1>
+            </header>
+    
+      
+        <main>
+            
+            <section id="meny">
+                <h2>Meny</h2>
+                <p>
+                    Här är de burgarna vi serverar hos Victors Burgare:
+                </p>
+                
+                <div id="burgare-grid">
+                <!-- Burgare 1 -->
+                    <div class="burgare">
+                        <h3>
+                            Burgare 1
+                        </h3>
+                        <img src="https://res.cloudinary.com/coopsverige/image/upload/f_auto,fl_progressive,q_90,g_center,h_800,w_800/v1599035797/406451.jpg" alt="Bild av Burgare 1" height="300"/>
+                        <ul>
+                            <li>Svensk högrev</li>
+                            <li>Innehåller <span class="allergi">laktos</span></li>
+                            <li>Innehåller <span class="allergi">gluten</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Burgare 2 -->
+                    <div class="burgare">
+                        <h3>
+                            Burgare 2
+                        </h3>
+                        <img src="https://images.ctfassets.net/e8gvzq1fwq00/7anaU25AoXn2XhzNdTxqhB/9d65569b8c381b8da51700f7d20c6d47/Recept_-_Kycklingburgare_-_Desktop.jpg?w=820&h=820&fl=progressive&q=90&fm=jpg" alt="Bild av Burgare 2" height="300"/>
+                        <ul>
+                            <li>Svensk kyckling</li>
+                            <li>Laktosfri </li>
+                            <li>Glutenfri</li>
+                        </ul>
+                    </div>
+
+                    <!-- Burgare 3 -->
+                    <div class="burgare">
+                        <h3>
+                            Burgare 3
+                        </h3>
+                        <img src="https://i0.wp.com/baketotheroots.de/wp-content/uploads/2022/08/SQ_220731_Halloumi-Veggie-Burgers.jpg?fit=1200%2C1200&ssl=1" alt="Bild av Burgare 3" height="300"/>
+                        <ul>
+                            <li>Svensk grilloumi</li>
+                            <li>Innehåller <span class="allergi">laktos</span></li>
+                            <li>Innehåller <span class="allergi">gluten</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="Omdinbeställning">
+                <h2>Om din beställning</h2>
+                <p>Vi finns på Lägerhyddsvägen 1 men erbjuder även hemkörning direkt till din dörr</p>
+
+                <h3>Leveransinformation</h3>
+              
+                    <p>
+                        <label for="Namn">Fullständigt namn</label>
+                    </p>
+                    <p>
+                        <input type="text" id="Namn" required = "required" name="Namn" placeholder="För och efternamn">
+                    </p>
+
+                    <p>
+                        <label for="Email">E-mail</label>
+                    </p>
+                    <p>
+                        <input type="email" id="Email" required = "required" name="Email" placeholder="E-mail address">
+                    </p>
+
+                    <p>
+                        <label for="Gata">Gata</label>
+                    </p>
+                    <p>
+                        <input type="text" id="Gata" required = "required" name="Gata" placeholder="Gatunamn">
+                    </p>
+
+                    <p>
+                        <label for="Husnummer">Husnummer</label>
+                    </p>
+                    <p>
+                        <input type="text" id="Husnummer" required="required" name="Husnummer" placeholder="Husnummer" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                    </p>
+
+                    <!-- Betalning -->
+                    <p>
+                        <label for="betalning">Betalning:</label>
+                    </p>
+                    <p>
+                        <select id="betalning" name="betalning">
+                            <option value="credit-kort">Kredit-kort</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="swish">Swish</option>
+                        </select>
+                    </p>
+
+                    <!-- Kön -->
+                    <p>Kön</p>
+                    <p>
+                        <input type="radio" id="man" name="kön" value="man">
+                        <label for="man">Man</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="kvinna" name="kön" value="kvinna">
+                        <label for="kvinna">Kvinna</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="icke-binär" name="kön" value="icke-binär">
+                        <label for="icke-binär">Icke-binär</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="annat" name="kön" value="annat" checked>
+                        <label for="annat">Annat</label>
+                    </p>
+            </section>                
+            </section>       
+                    <!-- Beställnings-knapp-->
+                    <p>
+                        <button type="submit">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqp5219Jpz8IY-VXNY560a59SWBZf8P1Mu9Q&s" alt="ceckbox" height="15">
+                            Beställ
+                        </button>
+                    </p>
+            </section>
+        </main>
+
+        <footer>
+            <hr>
+            <p>
+                &copy; 2024 Victors Burgare.
+            </p>
+        </footer>   
+   </body>
+</html>
